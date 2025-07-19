@@ -1,0 +1,122 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: wheat;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-image: url(https://quizizz.com/_media/quizzes/a76976dd-6eb9-4a74-9b02-5498bbea39fa);
+  background-size: cover;
+  background-position: center;
+  background-color: azure;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  padding: 2em;
+}
+.bg-putih {
+  background: whitesmoke;
+  display: inline-block;
+}
+.text-tengah {
+  text-align: center;
+}
+nav {
+  background-color: cadetblue;
+  padding: 0.5em 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  margin: 0 15px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+nav ul li a:hover {
+  background-color: lightslategrey;
+}
+main {
+  padding: 20px;
+}
+h2 {
+  background-color: whitesmoke;
+  display: inline-block;
+}
+table {
+  width: 80%;
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: 20px auto;
+  font-family: 16px;
+  font-size: 16px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+thead {
+  background-color: aqua;
+  color: black;
+}
+th,
+td {
+  padding: 12px 20px;
+  border: 1px solid black;
+  text-align: center;
+}
+footer {
+  background-color: whitesmoke;
+  color: black;
+  text-align: center;
+  padding: 1em 0;
+  font-size: 0.9em;
+  margin-top: 40px;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
+}
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  background: aqua;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+form {
+  margin-top: 10px;
+  font-weight: bold;
+}
+input {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid azure;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+label {
+  margin-top: 10px;
+  font-weight: bold;
+  color: black;
+}
+button {
+  margin-top: 20px;
+  padding: 10px;
+  background: chartreuse;
+  color: black;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+button:hover {
+  background: gray;
+}

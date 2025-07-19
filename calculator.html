@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalkulator BMI</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" href="calculator-icon.ico" type="image/x-icon" />
+    <link rel="icon" href="calculator-icon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <header>
+      <div class="bg-putih">
+        <h1>Kalkulator BMI</h1>
+      </div>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="calculator.html">Kalkulator</a></li>
+      </ul>
+    </nav>
+    <main>
+      <audio hidden autoplay loop>
+        <source
+          src="Medical Hospital Clinic Background Music For Videos.mp3"
+          type="audio/mp3"
+        />
+        Your browser does not support the audio element.
+      </audio>
+      <article>
+        <div style="text-align: center" class="container">
+          <h2>Kalkulator BMI</h2>
+          <form id="bmiform">
+            <div style="text-align: left">
+              <table>
+                <tr>
+                  <td><label for="berat">Berat Badan (kg):</label></td>
+                  <td><input type="number" id="berat" required /></td>
+                </tr>
+                <tr>
+                  <td><label for="tinggi">Tinggi Badan (cm):</label></td>
+                  <td><input type="number" id="tinggi" required /></td>
+                </tr>
+              </table>
+            </div>
+            <button type="submit">Hitung BMI</button>
+          </form>
+          <div id="hasil"></div>
+        </div>
+        <script src="script.js"></script>
+      </article>
+    </main>
+    <footer>
+      <p>&copy; 2025 Muammar Zain Z.A</p>
+    </footer>
+  </body>
+</html>
